@@ -35,7 +35,7 @@
     "npm-scripts-info": "^0.3.6",
     "rollup": "^0.37.0",
     "shx": "^0.2.1",
-    "typescript": "^3.0.0"
+    "typescript": "^5.0.3"
   },
   "author": "Marcin Najder <marcin.najder@gmail.com>",
   "license": "MIT",

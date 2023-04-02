@@ -7,7 +7,7 @@ it('findIndex', function () {
     assert.deepEqual(Enumerable.from([1, 2]).findindex(x => x > 1), 1);
     assert.deepEqual(Enumerable.from([1, 2]).findindex(x => x > 2), undefined);
 
-    assert.deepEqual(findindex(x => x > 0)([1, 2]), 0);
+    assert.deepEqual(findindex<number>(x => x > 0)([1, 2]), 0);
 });
 
 export const samples = [

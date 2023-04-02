@@ -16,7 +16,7 @@ function iterators_forof(){
 
     var interable : Iterable<number> = [1,2,3];
 
-    for(var item of interable){
+    for(const item of interable){
         console.log(item);
     }
 
