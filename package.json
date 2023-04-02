@@ -22,19 +22,18 @@
     "build-npmpackage": "npm-run-all rebuild tsc-esm_es5 copy-cjs_es6-src-npmpackage copy-esm_es5-src-npmpackage gen-readme-md gen-package-json bundles inject-ts-helpers"
   },
   "dependencies": {
-    "tslib": "^1.9.0"
+    "tslib": "^2.5.0"
   },
   "devDependencies": {
     "@types/glob": "^5.0.30",
-    "@types/mocha": "^2.2.33",
-    "@types/node": "0.0.2",
+    "@types/mocha": "^10.0.1",
     "glob": "^7.1.1",
-    "mkdirp": "^0.5.1",
-    "mocha": "^3.2.0",
-    "npm-run-all": "^3.1.2",
-    "npm-scripts-info": "^0.3.6",
+    "mkdirp": "^2.1.6",
+    "mocha": "^10.2.0",
+    "npm-run-all": "^4.1.5",
+    "npm-scripts-info": "^0.3.9",
     "rollup": "^0.37.0",
-    "shx": "^0.2.1",
+    "shx": "^0.3.4",
     "typescript": "^5.0.3"
   },
   "author": "Marcin Najder <marcin.najder@gmail.com>",
