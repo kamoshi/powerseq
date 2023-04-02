@@ -1,13 +1,12 @@
 var glob = require("glob");
 var fs = require("fs");
-var path = require("path");
 var os = require("os");
 
 var operators = glob.sync("./src/operators/*.ts");
 var enumerable = glob.sync("./src/enumerable/*.ts");
 var files = operators
     .concat(enumerable)
-    .map(p => p.replace("src" + path.sep, "").replace(".ts", ""));
+    .map(p => p.replace("src", '.').replace(".ts", ""));
 
 var indexContent = files
     .map(p => `export { ${p.split("/")[2]} } from "${p}";`)
