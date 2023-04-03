@@ -22,7 +22,8 @@
     "inject-ts-helpers": "node ./tools/inject-ts-helpers.js",
     "build-npmpackage": "npm-run-all rebuild tsc-esm_es5 copy-cjs_es6-src-npmpackage copy-esm_es5-src-npmpackage gen-readme-md gen-package-json bundles inject-ts-helpers",
     
-    "test": "TS_NODE_PROJECT='./tsconfig.test.json' npx mocha --require ts-node/register test/**/*.ts --exit",
+    "test": "TS_NODE_PROJECT='./tsconfig.test.json' mocha -r ts-node/register test/**/*.ts --exit",
+    "test:watch": "TS_NODE_PROJECT='./tsconfig.test.json' mocha -r ts-node/register --watch-extensions ts --watch --watch-files src test/**/*.ts",
     "build": "npx rollup --config --bundleConfigAsCjs"
   },
   "devDependencies": {

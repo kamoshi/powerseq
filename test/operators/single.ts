@@ -7,10 +7,10 @@ it('single', function () {
     assert.deepEqual(Enumerable.from([1, 2, 3, 4]).find(x => x < 0), undefined);
     assert.throws(() => {
         single([1, 3, 2, 0], x => x > 1);
-    }, "More than one element satisfies the condition in predicate.");
+    }, /More than one element satisfies the condition in predicate./);
     assert.throws(() => {
         single([1, 3]);
-    }, "More than one element satisfies the condition in predicate.");
+    }, /More than one element satisfies the condition in predicate./);
 
     assert.deepEqual(single()([]), undefined);
 });

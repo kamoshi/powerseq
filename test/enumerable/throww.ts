@@ -4,7 +4,7 @@ import { Enumerable, throww } from "../../src/enumerable";
 it('throww', function () {
     assert.throws(() => {
         Array.from(throww<string>(new Error("exception ...")));
-    }, "exception ...");
+    }, /exception .../);
 });
 
 export const samples = [
