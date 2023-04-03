@@ -1,7 +1,7 @@
-var fs = require('fs');
-var os = require('os');
+import { readFileSync, existsSync, writeFileSync } from 'fs';
+import { EOL } from 'os';
 
-var tslib = fs.readFileSync('./node_modules/tslib/tslib.js', 'utf8');
+var tslib = readFileSync('./node_modules/tslib/tslib.js', 'utf8');
 
 var jsFiles = [
   // './npmpackage/esm_es5/enumerable_.js',
@@ -9,8 +9,8 @@ var jsFiles = [
 ];
 
 for (var filePath of jsFiles) {
-  if (fs.existsSync(filePath)) {
-    fs.writeFileSync(filePath, tslib + os.EOL + fs.readFileSync(filePath, "utf8"));
+  if (existsSync(filePath)) {
+    writeFileSync(filePath, tslib + EOL + readFileSync(filePath, "utf8"));
     console.log(`file "${filePath}" has been modified`)
   }
 }

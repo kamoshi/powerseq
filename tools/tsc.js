@@ -1,4 +1,4 @@
-var child_process =  require('child_process');
+import child_process from 'child_process';
 var {exec} = child_process;
 
 var watchMode = process.argv.length === 3;

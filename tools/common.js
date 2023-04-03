@@ -1,20 +1,20 @@
-var glob = require("glob");
-var fs = require("fs");
-var path = require("path");
-var os = require("os");
+import { sync } from "glob";
+import { writeFileSync } from "fs";
+import { sep } from "path";
+import { EOL } from "os";
 
-var operators = glob.sync("./src/operators/*.ts");
-var enumerable = glob.sync("./src/enumerable/*.ts");
+var operators = sync("./src/operators/*.ts");
+var enumerable = sync("./src/enumerable/*.ts");
 
 
 var src = operators
     .concat(enumerable)
-    .map(p => p.replace("src"+path.sep,"").replace(".ts",""))
+    .map(p => p.replace("src"+sep,"").replace(".ts",""))
     .map(p =>`export * from "${p}";`)
-    .join(os.EOL);
+    .join(EOL);
 
 //console.log(src);
 var filePath = "./src/methods.generated.ts";
-fs.writeFileSync(filePath, src);
+writeFileSync(filePath, src);
 console.log(filePath," file generated");
 

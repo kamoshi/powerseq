@@ -1,7 +1,7 @@
 //https://github.com/ReactiveX/rxjs/blob/master/.make-packages.js
 
-var fs = require('fs');
-var pkg = require('../package.json');
+import { writeFileSync, readFileSync } from 'fs';
+import pkg from '../package.json';
 
 // var cjsPkg = Object.assign({}, pkg, {
 //   name: 'rxjs',
@@ -28,8 +28,8 @@ pkg.module = "esm_es5/index.js"; // for tools like webpack2, rollup
 delete pkg.scripts;
 
 var filePath = "./npmpackage/package.json";
-fs.writeFileSync(filePath, JSON.stringify(pkg, null, 2));
+writeFileSync(filePath, JSON.stringify(pkg, null, 2));
 console.log(filePath, " file generated");
 
-fs.writeFileSync('./npmpackage/LICENSE.txt', fs.readFileSync('./LICENSE.txt').toString());
-fs.writeFileSync('./npmpackage/README.md', fs.readFileSync('./README.md').toString());
+writeFileSync('./npmpackage/LICENSE.txt', readFileSync('./LICENSE.txt').toString());
+writeFileSync('./npmpackage/README.md', readFileSync('./README.md').toString());

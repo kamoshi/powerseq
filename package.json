@@ -2,7 +2,9 @@
   "name": "powerseq",
   "version": "1.0.4",
   "description": "Sequence operators",
-  "type": "module",
+  "main": "dist/cjs/powerseq.js",
+  "module": "dist/esm/powerseq.js",
+  "browser": "dist/umd/powerseq.js",
   "scripts": {
     "del": "npm-run-all del-dist del-npmpackage",
     "del-node_modules": "shx rm -rf ./node_modules",
@@ -13,18 +15,20 @@
     "gen-package-json": "node tools/genPackageJson.js",
     "gen-readme-md": "node tools/genReadme.js",
     "watch": "node tools/tsc.js watch",
-    "test": "mocha ./dist/cjs_es6/test -R spec --recursive --timeout 30000",
     "rebuild": "npm-run-all del gen-methods tsc",
     "tsc-esm_es5": "tsc -p ./tsconfig.esm_es5.json",
     "copy-cjs_es6-src-npmpackage": "mkdirp ./npmpackage && shx cp -r ./dist/cjs_es6/src/* ./npmpackage",
     "copy-esm_es5-src-npmpackage": "mkdirp ./npmpackage/esm_es5 && shx cp -r ./dist/esm_es5/src/* ./npmpackage/esm_es5",
     "inject-ts-helpers": "node ./tools/inject-ts-helpers.js",
     "build-npmpackage": "npm-run-all rebuild tsc-esm_es5 copy-cjs_es6-src-npmpackage copy-esm_es5-src-npmpackage gen-readme-md gen-package-json bundles inject-ts-helpers",
-    "rollup": "npx rollup --config --bundleConfigAsCjs"
+    
+    "test": "TS_NODE_PROJECT='./tsconfig.test.json' npx mocha --require ts-node/register test/**/*.ts --exit",
+    "build": "npx rollup --config --bundleConfigAsCjs"
   },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.0",
     "@rollup/plugin-typescript": "^11.0.0",
+    "@types/expect": "^24.3.0",
     "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.1",
     "@types/rollup": "^0.54.0",
@@ -35,6 +39,7 @@
     "npm-scripts-info": "^0.3.9",
     "rollup": "^3.20.2",
     "shx": "^0.3.4",
+    "ts-node": "^10.9.1",
     "tslib": "^2.5.0",
     "typescript": "^5.0.3"
   },

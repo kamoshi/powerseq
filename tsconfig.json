@@ -1,22 +1,21 @@
 {
   "compilerOptions": {
     "rootDir": "./",
-    "declarationDir": "declarations",
+    "outDir": "./dist",
     "moduleResolution": "node",
-    "target": "es6",
-    "module": "es6",
-    "lib": ["es6"],
+    "target": "ES2017",
+    "module": "ESNext",
+    "lib": ["ES2017"],
     "esModuleInterop": true,
     "downlevelIteration": true,
     "sourceMap": true,
     "inlineSources": true,
     "importHelpers": true,
-    "declaration": true,
+    //"declaration": true,
     "noImplicitAny": false,
     //"strict": true,
   },
   "include": [
-    "src/**/*.ts",
-    "test/**/*.ts"
+    "src/**/*.ts"
   ]
 }
