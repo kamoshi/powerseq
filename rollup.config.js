@@ -11,7 +11,7 @@ const options = {
 		format: 'umd',
 	},
 	plugins: [
-		typescript({tsconfig: 'tsconfig.esm_es5.json'}),
+		typescript(),
 		terser(),
 	]
 };

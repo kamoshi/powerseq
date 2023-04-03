@@ -2,6 +2,7 @@
   "name": "powerseq",
   "version": "1.0.4",
   "description": "Sequence operators",
+  "type": "module",
   "scripts": {
     "del": "npm-run-all del-dist del-npmpackage",
     "del-node_modules": "shx rm -rf ./node_modules",

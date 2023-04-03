@@ -1,3 +1,22 @@
 {
-    "extends": "./tsconfig.cjs_es6.json"
+  "compilerOptions": {
+    "rootDir": "./",
+    "declarationDir": "declarations",
+    "moduleResolution": "node",
+    "target": "es6",
+    "module": "es6",
+    "lib": ["es6"],
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "importHelpers": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    //"strict": true,
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ]
 }
