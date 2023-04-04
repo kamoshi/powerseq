@@ -75,57 +75,57 @@ Function   | Example
 |----------|-------------|
 | asiterable | `asiterable([1, 2] /**changes seq type to help TypeScript*/) -> [1, 2]` |
 | filter | `filter([1, 2, 2, 3, 4], x => x > 2) -> seq [3, 4]`<br/>`filter([1, 2, 2, 3, 4], (x, index) => x - 1 === index) -> seq [1, 2]` |
-| max | `max([1, 2, 3, 1]) -> 3`<br>`max(['a', 'bb', 'rrr', 'd'], x => x.length) -> 3` |
-| skiplast | `skiplast([1, 2, 3, 4], 2) -> seq [1, 2]`<br> `skiplast([1, 2, 3, 4], 0) -> seq [1, 2, 3, 4]`<br> `skiplast([1, 2, 3, 4], 5) -> seq []` |
-| average | `average([1, 2, 3, 4]) -> 2.5`<br> `average(['a', 'aa', 'aaa'], s => s.length) -> 2` |
-| find | `find([1, 2, 2, 3, 4]) -> 1`<br> `find([1, 2, 2, 3, 4], x => x > 2) -> 3`<br> `find([1, 2, 2, 3, 4], x => x > 4) -> undefined`<br> `find([1, 2, 2, 3, 4], x => x > 4, 100) -> 100`<br> `find([1, 2, 2, 3, 4], (x, index) => x > 1 && index > 2) -> 3` |
+| max | `max([1, 2, 3, 1]) -> 3`<br/>`max(['a', 'bb', 'rrr', 'd'], x => x.length) -> 3` |
+| skiplast | `skiplast([1, 2, 3, 4], 2) -> seq [1, 2]`<br/> `skiplast([1, 2, 3, 4], 0) -> seq [1, 2, 3, 4]`<br/> `skiplast([1, 2, 3, 4], 5) -> seq []` |
+| average | `average([1, 2, 3, 4]) -> 2.5`<br/> `average(['a', 'aa', 'aaa'], s => s.length) -> 2` |
+| find | `find([1, 2, 2, 3, 4]) -> 1`<br/> `find([1, 2, 2, 3, 4], x => x > 2) -> 3`<br/> `find([1, 2, 2, 3, 4], x => x > 4) -> undefined`<br/> `find([1, 2, 2, 3, 4], x => x > 4, 100) -> 100`<br/> `find([1, 2, 2, 3, 4], (x, index) => x > 1 && index > 2) -> 3` |
 | maxby | `maxby(['a', 'bb', 'rrr', 'd'], x => x.length) -> 'rrr'` |
 | skipwhile | `skipwhile([1, 2, 2, 3, 3, 4, 5], x => x < 3) -> seq [3, 3, 4, 5]` |
-| buffer | `buffer([1, 2, 3, 4, 5, 6, 7], 2) -> seq [[1, 2], [3, 4], [5, 6], [7]]`<br> `buffer([1, 2, 3, 4, 5, 6, 7], 2, /*skip*/ 4) -> seq [[1, 2], [5, 6]]` |
-| findindex | `findindex([1, 2, 2, 3, 4], x => x > 1) -> 1`<br> `findindex([1, 2, 2, 3, 4], (x, index) => x > 1 && index > 2) -> 3` |
-| min | `min([1, 2, 3, 1]) -> 1`<br> `min(['a', 'bb', 'rrr', 'd'], x => x.length) -> 1` |
-| some | `some([1]) -> true`<br>`some([]) -> false`<br>`some([1, 2, 3], x => x > 2) -> true`<br>`some([1, 2, 3], x => x > 3) -> false">some`|
+| buffer | `buffer([1, 2, 3, 4, 5, 6, 7], 2) -> seq [[1, 2], [3, 4], [5, 6], [7]]`<br/> `buffer([1, 2, 3, 4, 5, 6, 7], 2, /*skip*/ 4) -> seq [[1, 2], [5, 6]]` |
+| findindex | `findindex([1, 2, 2, 3, 4], x => x > 1) -> 1`<br/> `findindex([1, 2, 2, 3, 4], (x, index) => x > 1 && index > 2) -> 3` |
+| min | `min([1, 2, 3, 1]) -> 1`<br/> `min(['a', 'bb', 'rrr', 'd'], x => x.length) -> 1` |
+| some | `some([1]) -> true`<br/>`some([]) -> false`<br/>`some([1, 2, 3], x => x > 2) -> true`<br/>`some([1, 2, 3], x => x > 3) -> false">some`|
 | cast | `cast([new Number(1), new Number(2), 's', false], Number) -> error: An element in the sequence cannot be cast to type 'Number'.` |
-| flatmap | `flatmap([{ ns: [1] }, { ns: [99, 10] }, { ns: [6, 3] }], x => x.ns) -> seq [1, 99, 10, 6, 3]`<br>`flatmap(['abc', 'cd'], text => text, (text, char) => text + '-' + char) -> seq ['abc-a', 'abc-b', 'abc-c', 'cd-c', 'cd-d']`
+| flatmap | `flatmap([{ ns: [1] }, { ns: [99, 10] }, { ns: [6, 3] }], x => x.ns) -> seq [1, 99, 10, 6, 3]`<br/>`flatmap(['abc', 'cd'], text => text, (text, char) => text + '-' + char) -> seq ['abc-a', 'abc-b', 'abc-c', 'cd-c', 'cd-d']`
 | minby | `minby(['a', 'bb', 'rrr', 'd'], x => x.length) -> 'a'` |
-| sum | `sum([1, 2, 3]) -> 6`<br>`sum(['a', 'asd', 'yy'], x => x.length) -> 6`
+| sum | `sum([1, 2, 3]) -> 6`<br/>`sum(['a', 'asd', 'yy'], x => x.length) -> 6`
 | concat | `concat([1, 2], [3, 5], [6]) -> seq [1, 2, 3, 5, 6]` |
 | foreach | `foreach([1, 2, 3], x => { /* some action */ ; }) -> undefined` |
 | oftype | `oftype([new Number(1), new Number(2), 's', false], Number) -> seq [{ }, { }]` |
 | take | `take([1, 2, 3, 4, 5], 2) -> seq [1, 2]` |
-| count | `count([2, 2, 2]) -> 3`<br>`count([2, 4, 6], x => x > 2) -> 2` |
-| groupby | `groupby(['a', 'b', 'cc', 'ddd', 'xx'], x => x.length) -> seq [enumerable ['a', 'b'], enumerable ['cc', 'xx'], enumerable ['ddd']]`<br>`groupby(['a', 'b', 'cc', 'ddd', 'xx'], x => x.length, x => x.toUpperCase()) -> seq [enumerable ['A', 'B'], enumerable ['CC', 'XX'], enumerable ['DDD']]` |
-| orderby | `orderby([1, 4, 2, 3, 5, 1], x => x) -> enumerable [1, 1, 2, 3, 4, 5]`<br>`orderby(['abc', 'dd', 'sdfe', 'f'], x => x.length) -> enumerable ['f', 'dd', 'abc', 'sdfe']` |
-| takelast | `takelast([1, 2, 3], 2) -> seq [2, 3]`<br>`takelast([1, 2, 3], 0) -> seq []`<br>`takelast([1, 2, 3], 5) -> seq [1, 2, 3]` |
+| count | `count([2, 2, 2]) -> 3`<br/>`count([2, 4, 6], x => x > 2) -> 2` |
+| groupby | `groupby(['a', 'b', 'cc', 'ddd', 'xx'], x => x.length) -> seq [enumerable ['a', 'b'], enumerable ['cc', 'xx'], enumerable ['ddd']]`<br/>`groupby(['a', 'b', 'cc', 'ddd', 'xx'], x => x.length, x => x.toUpperCase()) -> seq [enumerable ['A', 'B'], enumerable ['CC', 'XX'], enumerable ['DDD']]` |
+| orderby | `orderby([1, 4, 2, 3, 5, 1], x => x) -> enumerable [1, 1, 2, 3, 4, 5]`<br/>`orderby(['abc', 'dd', 'sdfe', 'f'], x => x.length) -> enumerable ['f', 'dd', 'abc', 'sdfe']` |
+| takelast | `takelast([1, 2, 3], 2) -> seq [2, 3]`<br/>`takelast([1, 2, 3], 0) -> seq []`<br/>`takelast([1, 2, 3], 5) -> seq [1, 2, 3]` |
 | defaultifempty | `defaultifempty([1, 2, 3]) -> seq [1, 2, 3], defaultifempty([]) -> seq [undefined], and defaultifempty([], 10) -> seq [10]` |
 | groupjoin | `groupjoin([1, 3, 2], ['a', 'b', 'cc'], x => x, y => y.length, (x, ys) => x + ':' + toarray(ys)) -> seq ['1:a,b', '2:cc']` |
 | orderbydescending | `orderbydescending([1, 4, 2, 3, 5, 1], x => x) -> enumerable [5, 4, 3, 2, 1, 1] and orderbydescending(['abc', 'dd', 'sdfe', 'f'], x => x.length) -> enumerable ['sdfe', 'abc', 'dd', 'f']` |
 | takewhile | `takewhile([1, 2, 2, 3, 3, 4, 5], x => x < 3) -> seq [1, 2, 2]` |
-| distinct | `distinct([1, 2, 1, 3, 2]) -> seq [1, 2, 3]`<br>`distinct(['a', 'aa', 'ab', 'abc'], x => x.length) -> seq ['a', 'aa', 'abc']` |
+| distinct | `distinct([1, 2, 1, 3, 2]) -> seq [1, 2, 3]`<br/>`distinct(['a', 'aa', 'ab', 'abc'], x => x.length) -> seq ['a', 'aa', 'abc']` |
 | ignoreelements | `ignoreelements([1, 3, 2]) -> seq []` |
-| reduce | `reduce([1, 2, 3], (a, x) => a + x) -> 6`<br>`reduce([1, 2, 3], (a, x) => a + (x * 10), '') -> '102030'` |
+| reduce | `reduce([1, 2, 3], (a, x) => a + x) -> 6`<br/>`reduce([1, 2, 3], (a, x) => a + (x * 10), '') -> '102030'` |
 | thenby | `thenby(orderby(['xa', 'a', 'fg', 'ert', 'b'], x => x.length), x => x) -> enumerable ['a', 'b', 'fg', 'xa', 'ert']` |
 | distinctuntilchanged | `distinctuntilchanged([1, 1, 2, 2, 2, 1, 3, 3]) -> seq [1, 2, 1, 3]` |
-| includes | `includes([1, 2, 3], 2) -> true`<br>`includes([1, 2, 3], 5) -> false`<br>`includes([1, 2, 3], 3, /*fromIndex*/ 4) -> false` |
-| repeat | `repeat([1, 2, 3], 2) -> seq [1, 2, 3, 1, 2, 3]`<br>`take(repeat([1, 2, 3]), 5) -> seq [1, 2, 3, 1, 2]` |
+| includes | `includes([1, 2, 3], 2) -> true`<br/>`includes([1, 2, 3], 5) -> false`<br/>`includes([1, 2, 3], 3, /*fromIndex*/ 4) -> false` |
+| repeat | `repeat([1, 2, 3], 2) -> seq [1, 2, 3, 1, 2, 3]`<br/>`take(repeat([1, 2, 3]), 5) -> seq [1, 2, 3, 1, 2]` |
 | thenbydescending | `thenbydescending(orderby(['xa', 'a', 'fg', 'ert', 'b'], x => x.length), x => x) -> enumerable ['b', 'a', 'xa', 'fg', 'ert']` |
 | doo | `doo([1, 2, 3,], (x) => { /* executed during iteration */ ; }) -> seq [1, 2, 3]` |
-| intersect | `intersect([1, 2, 2, 3], [3, 3, 1]) -> seq [3, 1]`<br>`intersect(['a', 'c', 'ddd'], ['r', 'ww', 'ttt', 'oooo'], x => x.length) -> seq ['r', 'ttt']` |
+| intersect | `intersect([1, 2, 2, 3], [3, 3, 1]) -> seq [3, 1]`<br/>`intersect(['a', 'c', 'ddd'], ['r', 'ww', 'ttt', 'oooo'], x => x.length) -> seq ['r', 'ttt']` |
 | reverse | `reverse([1, 2, 3]) -> seq [3, 2, 1]` |
 | toarray | `toarray([1, 2, 2]) -> [1, 2, 2]` |
-| elementat | `elementat([1, 2, 12, 15], 2) -> 12`<br>`elementat([1, 2, 12, 15], 20) -> undefined`<br>`elementat([1, 2, 12, 15], 20, 100) -> 100` |
-| isempty | `isempty([]) -> true`<br>`isempty([1, 2]) -> false` |
-| scan | `scan([1, 2, 3], (a, x) => a + x) -> seq [3, 6]`<br>`scan([1, 2, 3], (a, x) => a + (x * 10), '') -> seq ['10', '1020', '102030']` |
-| tomap | `tomap(['a', 'bb', 'ccc'], x => x.length) -> Map {1 => 'a', 2 => 'bb', 3 => 'ccc'}`<br>`tomap(['a', 'bb', 'ccc'], x => x.length, x => x.toUpperCase()) -> Map {1 => 'A', 2 => 'BB', 3 => 'CCC'}` |
-| every | `every([1, 2, 12, 15], x => x > 0) -> true`<br>`every([1, 2, 12, 15], x => x < 10) -> false` |
+| elementat | `elementat([1, 2, 12, 15], 2) -> 12`<br/>`elementat([1, 2, 12, 15], 20) -> undefined`<br/>`elementat([1, 2, 12, 15], 20, 100) -> 100` |
+| isempty | `isempty([]) -> true`<br/>`isempty([1, 2]) -> false` |
+| scan | `scan([1, 2, 3], (a, x) => a + x) -> seq [3, 6]`<br/>`scan([1, 2, 3], (a, x) => a + (x * 10), '') -> seq ['10', '1020', '102030']` |
+| tomap | `tomap(['a', 'bb', 'ccc'], x => x.length) -> Map {1 => 'a', 2 => 'bb', 3 => 'ccc'}`<br/>`tomap(['a', 'bb', 'ccc'], x => x.length, x => x.toUpperCase()) -> Map {1 => 'A', 2 => 'BB', 3 => 'CCC'}` |
+| every | `every([1, 2, 12, 15], x => x > 0) -> true`<br/>`every([1, 2, 12, 15], x => x < 10) -> false` |
 | join | `join([1, 2, 3], ['a', 'bb', 'x'], x => x, y => y.length, (x, y) => x + ':' + y) -> seq ['1:a', '1:x', '2:bb']` |
-| sequenceequal | `sequenceequal([1, 2, 3], [1, 2, 3]) -> true`<br>`sequenceequal([1, 2, 3], [1, 2, 2]) -> false`<br>`sequenceequal([1, 2, 3], [1, 2]) -> false` |
-| toobject | `toobject(['a', 'bb', 'ccc'], x => x.length) -> { 1:a, 2:bb, 3:ccc }`<br>`toobject(['a', 'bb', 'ccc'], x => x.length, x => x.toUpperCase()) -> { 1:A, 2:BB, 3:CCC }` |
-| except | `except([1, 2, 2, 3, 4], [2, 3]) -> seq [1, 4]`<br>`except(['a', 'b', 'ba', 'xde'], ['poc'], x => x.length) -> seq ['a', 'ba']` |
-| last | `last([1, 2, 3]) -> 3`<br>`last([]) -> undefined`<br>`last([1, 2, 3, 4, 5], x => x % 2 === 0) -> 4` |
-| single | `single([1]) -> 1`<br>`single([1, 2, 3], x => x > 2) -> 3`<br>`single([1, 2, 3], x => x > 1) -> error: More than one element satisfies the condition in predicate.` |
-| union | `union([1, 2, 2], [2, 3, 3, 4]) -> seq [1, 2, 3, 4]`<br>`union(['a', 'c', 'ddd'], ['r', 'ww', 'ttt', 'oooo'], x => x.length) -> seq ['a', 'ddd', 'ww', 'oooo']` |
+| sequenceequal | `sequenceequal([1, 2, 3], [1, 2, 3]) -> true`<br/>`sequenceequal([1, 2, 3], [1, 2, 2]) -> false`<br/>`sequenceequal([1, 2, 3], [1, 2]) -> false` |
+| toobject | `toobject(['a', 'bb', 'ccc'], x => x.length) -> { 1:a, 2:bb, 3:ccc }`<br/>`toobject(['a', 'bb', 'ccc'], x => x.length, x => x.toUpperCase()) -> { 1:A, 2:BB, 3:CCC }` |
+| except | `except([1, 2, 2, 3, 4], [2, 3]) -> seq [1, 4]`<br/>`except(['a', 'b', 'ba', 'xde'], ['poc'], x => x.length) -> seq ['a', 'ba']` |
+| last | `last([1, 2, 3]) -> 3`<br/>`last([]) -> undefined`<br/>`last([1, 2, 3, 4, 5], x => x % 2 === 0) -> 4` |
+| single | `single([1]) -> 1`<br/>`single([1, 2, 3], x => x > 2) -> 3`<br/>`single([1, 2, 3], x => x > 1) -> error: More than one element satisfies the condition in predicate.` |
+| union | `union([1, 2, 2], [2, 3, 3, 4]) -> seq [1, 2, 3, 4]`<br/>`union(['a', 'c', 'ddd'], ['r', 'ww', 'ttt', 'oooo'], x => x.length) -> seq ['a', 'ddd', 'ww', 'oooo']` |
 | expand | `expand([1], x => x > 8 ? [] : [10, x * 2]) -> seq [1, 10, 2, 10, 4, 10, 8, 10, 16]` |
-| map | `map([1, 2, 3], x => x * 10) -> seq [10, 20, 30]`<br>`map([1, 2, 3], (x, index) => x * 10 + index) -> seq [10, 21, 32]` |
+| map | `map([1, 2, 3], x => x * 10) -> seq [10, 20, 30]`<br/>`map([1, 2, 3], (x, index) => x * 10 + index) -> seq [10, 21, 32]` |
 | skip | `skip([1, 2, 3, 4, 5], 2) -> seq [3, 4, 5]` |
-| zip | `zip(['a', 'b', 'c'], [1, 2], (s, n) => s + n) -> seq ['a1', 'b2']`<br>`zip(['a', 'b', 'c'], [1, 2], [false], (s, n, b) => s + n + b) -> seq ['a1false']` |
+| zip | `zip(['a', 'b', 'c'], [1, 2], (s, n) => s + n) -> seq ['a1', 'b2']`<br/>`zip(['a', 'b', 'c'], [1, 2], [false], (s, n, b) => s + n + b) -> seq ['a1false']` |
