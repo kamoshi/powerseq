@@ -27,7 +27,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[src/operators/groupby.ts:6](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L6)
+[src/operators/groupby.ts:6](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L6)
 
 ## Methods
 

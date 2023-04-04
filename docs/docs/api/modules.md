@@ -40,7 +40,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[src/operators/groupby.ts:13](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L13)
+[src/operators/groupby.ts:13](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L13)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupby.ts:12](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L12)
+[src/operators/groupby.ts:12](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L12)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupby.ts:14](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L14)
+[src/operators/groupby.ts:14](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L14)
 
 ## Functions
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[src/operators/asiterable.ts:3](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/asiterable.ts#L3)
+[src/operators/asiterable.ts:3](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/asiterable.ts#L3)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[src/operators/average.ts:23](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/average.ts#L23)
+[src/operators/average.ts:23](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/average.ts#L23)
 
 ▸ **average**<`T`\>(`source`, `valueSelector`): `number` \| `undefined`
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[src/operators/average.ts:24](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/average.ts#L24)
+[src/operators/average.ts:24](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/average.ts#L24)
 
 ▸ **average**<`T`\>(): `OperatorR`<`T`, `number` \| `undefined`\>
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-[src/operators/average.ts:25](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/average.ts#L25)
+[src/operators/average.ts:25](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/average.ts#L25)
 
 ▸ **average**<`T`\>(`valueSelector`): `OperatorR`<`T`, `number` \| `undefined`\>
 
@@ -212,7 +212,7 @@ ___
 
 #### Defined in
 
-[src/operators/average.ts:26](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/average.ts#L26)
+[src/operators/average.ts:26](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/average.ts#L26)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[src/operators/buffer.ts:58](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/buffer.ts#L58)
+[src/operators/buffer.ts:58](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/buffer.ts#L58)
 
 ▸ **buffer**<`T`\>(`count`, `skip?`): `Operator`<`T`, `T`[]\>
 
@@ -263,7 +263,7 @@ ___
 
 #### Defined in
 
-[src/operators/buffer.ts:59](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/buffer.ts#L59)
+[src/operators/buffer.ts:59](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/buffer.ts#L59)
 
 ___
 
@@ -290,7 +290,7 @@ ___
 
 #### Defined in
 
-[src/operators/cast.ts:19](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/cast.ts#L19)
+[src/operators/cast.ts:19](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/cast.ts#L19)
 
 ▸ **cast**<`TResult`\>(`type`): `Operator`<`any`, `TResult`\>
 
@@ -312,7 +312,7 @@ ___
 
 #### Defined in
 
-[src/operators/cast.ts:20](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/cast.ts#L20)
+[src/operators/cast.ts:20](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/cast.ts#L20)
 
 ___
 
@@ -338,7 +338,7 @@ ___
 
 #### Defined in
 
-[src/operators/concat.ts:5](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/concat.ts#L5)
+[src/operators/concat.ts:5](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/concat.ts#L5)
 
 ___
 
@@ -364,7 +364,7 @@ ___
 
 #### Defined in
 
-[src/operators/concat.ts:12](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/concat.ts#L12)
+[src/operators/concat.ts:12](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/concat.ts#L12)
 
 ___
 
@@ -391,7 +391,7 @@ ___
 
 #### Defined in
 
-[src/operators/count.ts:27](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/count.ts#L27)
+[src/operators/count.ts:27](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/count.ts#L27)
 
 ▸ **count**<`T`\>(`predicate?`): `OperatorR`<`T`, `number`\>
 
@@ -413,7 +413,7 @@ ___
 
 #### Defined in
 
-[src/operators/count.ts:28](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/count.ts#L28)
+[src/operators/count.ts:28](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/count.ts#L28)
 
 ___
 
@@ -440,7 +440,7 @@ ___
 
 #### Defined in
 
-[src/operators/defaultifempty.ts:5](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/defaultifempty.ts#L5)
+[src/operators/defaultifempty.ts:5](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/defaultifempty.ts#L5)
 
 ___
 
@@ -466,7 +466,7 @@ ___
 
 #### Defined in
 
-[src/operators/defaultifempty.ts:18](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/defaultifempty.ts#L18)
+[src/operators/defaultifempty.ts:18](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/defaultifempty.ts#L18)
 
 ___
 
@@ -492,7 +492,7 @@ ___
 
 #### Defined in
 
-[src/enumerable/defer.ts:5](https://github.com/kamoshi/powerseq/blob/abc2814/src/enumerable/defer.ts#L5)
+[src/enumerable/defer.ts:5](https://github.com/kamoshi/powerseq/blob/21310fa/src/enumerable/defer.ts#L5)
 
 ___
 
@@ -519,7 +519,7 @@ ___
 
 #### Defined in
 
-[src/operators/distinct.ts:22](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/distinct.ts#L22)
+[src/operators/distinct.ts:22](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/distinct.ts#L22)
 
 ▸ **distinct**<`T`\>(`keySelector?`): `Operator`<`T`, `T`\>
 
@@ -541,7 +541,7 @@ ___
 
 #### Defined in
 
-[src/operators/distinct.ts:23](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/distinct.ts#L23)
+[src/operators/distinct.ts:23](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/distinct.ts#L23)
 
 ___
 
@@ -568,7 +568,7 @@ ___
 
 #### Defined in
 
-[src/operators/distinctuntilchanged.ts:34](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/distinctuntilchanged.ts#L34)
+[src/operators/distinctuntilchanged.ts:34](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/distinctuntilchanged.ts#L34)
 
 ▸ **distinctuntilchanged**<`T`\>(`keySelector?`): `Operator`<`T`, `T`\>
 
@@ -590,7 +590,7 @@ ___
 
 #### Defined in
 
-[src/operators/distinctuntilchanged.ts:35](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/distinctuntilchanged.ts#L35)
+[src/operators/distinctuntilchanged.ts:35](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/distinctuntilchanged.ts#L35)
 
 ___
 
@@ -617,7 +617,7 @@ ___
 
 #### Defined in
 
-[src/operators/doo.ts:15](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/doo.ts#L15)
+[src/operators/doo.ts:15](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/doo.ts#L15)
 
 ▸ **doo**<`T`\>(`action`): `Operator`<`T`, `T`\>
 
@@ -639,7 +639,7 @@ ___
 
 #### Defined in
 
-[src/operators/doo.ts:16](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/doo.ts#L16)
+[src/operators/doo.ts:16](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/doo.ts#L16)
 
 ___
 
@@ -667,7 +667,7 @@ ___
 
 #### Defined in
 
-[src/operators/elementat.ts:17](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/elementat.ts#L17)
+[src/operators/elementat.ts:17](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/elementat.ts#L17)
 
 ▸ **elementat**<`T`\>(`source`, `index`): `T` \| `undefined`
 
@@ -690,7 +690,7 @@ ___
 
 #### Defined in
 
-[src/operators/elementat.ts:18](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/elementat.ts#L18)
+[src/operators/elementat.ts:18](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/elementat.ts#L18)
 
 ▸ **elementat**<`T`\>(`index`, `defaultValue`): `OperatorR`<`T`, `T`\>
 
@@ -713,7 +713,7 @@ ___
 
 #### Defined in
 
-[src/operators/elementat.ts:19](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/elementat.ts#L19)
+[src/operators/elementat.ts:19](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/elementat.ts#L19)
 
 ▸ **elementat**<`T`\>(`index`): `OperatorR`<`T`, `T` \| `undefined`\>
 
@@ -735,7 +735,7 @@ ___
 
 #### Defined in
 
-[src/operators/elementat.ts:20](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/elementat.ts#L20)
+[src/operators/elementat.ts:20](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/elementat.ts#L20)
 
 ___
 
@@ -755,7 +755,7 @@ ___
 
 #### Defined in
 
-[src/enumerable/empty.ts:4](https://github.com/kamoshi/powerseq/blob/abc2814/src/enumerable/empty.ts#L4)
+[src/enumerable/empty.ts:4](https://github.com/kamoshi/powerseq/blob/21310fa/src/enumerable/empty.ts#L4)
 
 ___
 
@@ -781,7 +781,7 @@ ___
 
 #### Defined in
 
-[src/enumerable/entries.ts:4](https://github.com/kamoshi/powerseq/blob/abc2814/src/enumerable/entries.ts#L4)
+[src/enumerable/entries.ts:4](https://github.com/kamoshi/powerseq/blob/21310fa/src/enumerable/entries.ts#L4)
 
 ▸ **entries**<`TValue`\>(`obj`): `Iterable`<[`string`, `TValue`]\>
 
@@ -803,7 +803,7 @@ ___
 
 #### Defined in
 
-[src/enumerable/entries.ts:5](https://github.com/kamoshi/powerseq/blob/abc2814/src/enumerable/entries.ts#L5)
+[src/enumerable/entries.ts:5](https://github.com/kamoshi/powerseq/blob/21310fa/src/enumerable/entries.ts#L5)
 
 ___
 
@@ -830,7 +830,7 @@ ___
 
 #### Defined in
 
-[src/operators/every.ts:15](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/every.ts#L15)
+[src/operators/every.ts:15](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/every.ts#L15)
 
 ▸ **every**<`T`\>(`predicate`): `OperatorR`<`T`, `boolean`\>
 
@@ -852,7 +852,7 @@ ___
 
 #### Defined in
 
-[src/operators/every.ts:16](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/every.ts#L16)
+[src/operators/every.ts:16](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/every.ts#L16)
 
 ___
 
@@ -880,7 +880,7 @@ ___
 
 #### Defined in
 
-[src/operators/except.ts:28](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/except.ts#L28)
+[src/operators/except.ts:28](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/except.ts#L28)
 
 ▸ **except**<`T`\>(`source2`, `keySelector?`): `Operator`<`T`, `T`\>
 
@@ -903,7 +903,7 @@ ___
 
 #### Defined in
 
-[src/operators/except.ts:29](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/except.ts#L29)
+[src/operators/except.ts:29](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/except.ts#L29)
 
 ___
 
@@ -930,7 +930,7 @@ ___
 
 #### Defined in
 
-[src/operators/expand.ts:28](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/expand.ts#L28)
+[src/operators/expand.ts:28](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/expand.ts#L28)
 
 ▸ **expand**<`T`\>(`selector`): `Operator`<`T`, `T`\>
 
@@ -952,7 +952,7 @@ ___
 
 #### Defined in
 
-[src/operators/expand.ts:29](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/expand.ts#L29)
+[src/operators/expand.ts:29](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/expand.ts#L29)
 
 ___
 
@@ -979,7 +979,7 @@ ___
 
 #### Defined in
 
-[src/operators/filter.ts:16](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/filter.ts#L16)
+[src/operators/filter.ts:16](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/filter.ts#L16)
 
 ▸ **filter**<`T`\>(`predicate`): `Operator`<`T`, `T`\>
 
@@ -1001,7 +1001,7 @@ ___
 
 #### Defined in
 
-[src/operators/filter.ts:17](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/filter.ts#L17)
+[src/operators/filter.ts:17](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/filter.ts#L17)
 
 ___
 
@@ -1028,7 +1028,7 @@ ___
 
 #### Defined in
 
-[src/operators/find.ts:23](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/find.ts#L23)
+[src/operators/find.ts:23](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/find.ts#L23)
 
 ▸ **find**<`T`\>(`source`, `predicate`, `defaultValue`): `T`
 
@@ -1052,7 +1052,7 @@ ___
 
 #### Defined in
 
-[src/operators/find.ts:24](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/find.ts#L24)
+[src/operators/find.ts:24](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/find.ts#L24)
 
 ▸ **find**<`T`\>(`predicate?`): `OperatorR`<`T`, `T` \| `undefined`\>
 
@@ -1074,7 +1074,7 @@ ___
 
 #### Defined in
 
-[src/operators/find.ts:25](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/find.ts#L25)
+[src/operators/find.ts:25](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/find.ts#L25)
 
 ▸ **find**<`T`\>(`predicate`, `defaultValue`): `OperatorR`<`T`, `T`\>
 
@@ -1097,7 +1097,7 @@ ___
 
 #### Defined in
 
-[src/operators/find.ts:26](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/find.ts#L26)
+[src/operators/find.ts:26](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/find.ts#L26)
 
 ___
 
@@ -1124,7 +1124,7 @@ ___
 
 #### Defined in
 
-[src/operators/findindex.ts:15](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/findindex.ts#L15)
+[src/operators/findindex.ts:15](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/findindex.ts#L15)
 
 ▸ **findindex**<`T`\>(`predicate`): `OperatorR`<`T`, `number` \| `undefined`\>
 
@@ -1146,7 +1146,7 @@ ___
 
 #### Defined in
 
-[src/operators/findindex.ts:16](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/findindex.ts#L16)
+[src/operators/findindex.ts:16](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/findindex.ts#L16)
 
 ___
 
@@ -1174,7 +1174,7 @@ ___
 
 #### Defined in
 
-[src/operators/flatmap.ts:25](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/flatmap.ts#L25)
+[src/operators/flatmap.ts:25](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/flatmap.ts#L25)
 
 ▸ **flatmap**<`T`, `TCollection`, `TResult`\>(`source`, `collectionSelector`, `resultSelector`): `Iterable`<`TResult`\>
 
@@ -1200,7 +1200,7 @@ ___
 
 #### Defined in
 
-[src/operators/flatmap.ts:26](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/flatmap.ts#L26)
+[src/operators/flatmap.ts:26](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/flatmap.ts#L26)
 
 ▸ **flatmap**<`T`, `TCollection`\>(`collectionSelector`): `Operator`<`T`, `TCollection`\>
 
@@ -1223,7 +1223,7 @@ ___
 
 #### Defined in
 
-[src/operators/flatmap.ts:27](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/flatmap.ts#L27)
+[src/operators/flatmap.ts:27](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/flatmap.ts#L27)
 
 ▸ **flatmap**<`T`, `TCollection`, `TResult`\>(`collectionSelector`, `resultSelector`): `Operator`<`T`, `TResult`\>
 
@@ -1248,7 +1248,7 @@ ___
 
 #### Defined in
 
-[src/operators/flatmap.ts:28](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/flatmap.ts#L28)
+[src/operators/flatmap.ts:28](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/flatmap.ts#L28)
 
 ___
 
@@ -1275,7 +1275,7 @@ ___
 
 #### Defined in
 
-[src/operators/foreach.ts:18](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/foreach.ts#L18)
+[src/operators/foreach.ts:18](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/foreach.ts#L18)
 
 ▸ **foreach**<`T`\>(`action?`): `OperatorR`<`T`, `void`\>
 
@@ -1297,7 +1297,7 @@ ___
 
 #### Defined in
 
-[src/operators/foreach.ts:19](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/foreach.ts#L19)
+[src/operators/foreach.ts:19](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/foreach.ts#L19)
 
 ___
 
@@ -1323,7 +1323,7 @@ ___
 
 #### Defined in
 
-[src/enumerable/from.ts:3](https://github.com/kamoshi/powerseq/blob/abc2814/src/enumerable/from.ts#L3)
+[src/enumerable/from.ts:3](https://github.com/kamoshi/powerseq/blob/21310fa/src/enumerable/from.ts#L3)
 
 ___
 
@@ -1353,7 +1353,7 @@ ___
 
 #### Defined in
 
-[src/enumerable/generate.ts:4](https://github.com/kamoshi/powerseq/blob/abc2814/src/enumerable/generate.ts#L4)
+[src/enumerable/generate.ts:4](https://github.com/kamoshi/powerseq/blob/21310fa/src/enumerable/generate.ts#L4)
 
 ___
 
@@ -1381,7 +1381,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupby.ts:58](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L58)
+[src/operators/groupby.ts:58](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L58)
 
 ▸ **groupby**<`T`, `TKey`, `TElement`\>(`source`, `keySelector`, `elementSelector`): `Iterable`<[`IterableGroup`](interfaces/IterableGroup.md)<`TKey`, `TElement`\>\>
 
@@ -1407,7 +1407,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupby.ts:59](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L59)
+[src/operators/groupby.ts:59](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L59)
 
 ▸ **groupby**<`T`, `TKey`, `TResult`\>(`source`, `keySelector`, `resultSelector`): `Iterable`<`TResult`\>
 
@@ -1433,7 +1433,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupby.ts:60](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L60)
+[src/operators/groupby.ts:60](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L60)
 
 ▸ **groupby**<`T`, `TKey`, `TElement`, `TResult`\>(`source`, `keySelector`, `elementSelector`, `resultSelector`): `Iterable`<`TResult`\>
 
@@ -1461,7 +1461,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupby.ts:61](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L61)
+[src/operators/groupby.ts:61](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L61)
 
 ▸ **groupby**<`T`, `TKey`\>(`keySelector`): `Operator`<`T`, [`IterableGroup`](interfaces/IterableGroup.md)<`TKey`, `T`\>\>
 
@@ -1484,7 +1484,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupby.ts:62](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L62)
+[src/operators/groupby.ts:62](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L62)
 
 ▸ **groupby**<`T`, `TKey`, `TElement`\>(`keySelector`, `elementSelector`): `Operator`<`T`, [`IterableGroup`](interfaces/IterableGroup.md)<`TKey`, `TElement`\>\>
 
@@ -1509,7 +1509,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupby.ts:63](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L63)
+[src/operators/groupby.ts:63](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L63)
 
 ▸ **groupby**<`T`, `TKey`, `TResult`\>(`keySelector`, `resultSelector`): `Operator`<`T`, `TResult`\>
 
@@ -1534,7 +1534,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupby.ts:64](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L64)
+[src/operators/groupby.ts:64](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L64)
 
 ▸ **groupby**<`T`, `TKey`, `TElement`, `TResult`\>(`keySelector`, `elementSelector`, `resultSelector`): `Operator`<`T`, `TResult`\>
 
@@ -1561,7 +1561,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupby.ts:65](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupby.ts#L65)
+[src/operators/groupby.ts:65](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupby.ts#L65)
 
 ___
 
@@ -1594,7 +1594,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupjoin.ts:33](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupjoin.ts#L33)
+[src/operators/groupjoin.ts:33](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupjoin.ts#L33)
 
 ▸ **groupjoin**<`T`, `T2`, `TKey`, `TResult`\>(`source1`, `source2`, `key1Selector`, `key2Selector`, `resultSelector`): `Iterable`<`TResult`\>
 
@@ -1623,7 +1623,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupjoin.ts:35](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupjoin.ts#L35)
+[src/operators/groupjoin.ts:35](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupjoin.ts#L35)
 
 ▸ **groupjoin**<`T`, `T2`, `TKey`, `TResult`\>(`source2`, `key1Selector`, `key2Selector`, `resultSelector`): `Operator`<`T`, `TResult`\>
 
@@ -1651,7 +1651,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupjoin.ts:37](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupjoin.ts#L37)
+[src/operators/groupjoin.ts:37](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupjoin.ts#L37)
 
 ▸ **groupjoin**<`T`, `T2`, `TKey`, `TResult`\>(`source2`, `key1Selector`, `key2Selector`, `resultSelector`): `Operator`<`T`, `TResult`\>
 
@@ -1679,7 +1679,7 @@ ___
 
 #### Defined in
 
-[src/operators/groupjoin.ts:39](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/groupjoin.ts#L39)
+[src/operators/groupjoin.ts:39](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/groupjoin.ts#L39)
 
 ___
 
@@ -1705,7 +1705,7 @@ ___
 
 #### Defined in
 
-[src/operators/ignoreelements.ts:12](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/ignoreelements.ts#L12)
+[src/operators/ignoreelements.ts:12](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/ignoreelements.ts#L12)
 
 ▸ **ignoreelements**<`T`\>(): `Operator`<`T`, `T`\>
 
@@ -1721,7 +1721,7 @@ ___
 
 #### Defined in
 
-[src/operators/ignoreelements.ts:13](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/ignoreelements.ts#L13)
+[src/operators/ignoreelements.ts:13](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/ignoreelements.ts#L13)
 
 ___
 
@@ -1749,7 +1749,7 @@ ___
 
 #### Defined in
 
-[src/operators/includes.ts:5](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/includes.ts#L5)
+[src/operators/includes.ts:5](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/includes.ts#L5)
 
 ___
 
@@ -1776,7 +1776,7 @@ ___
 
 #### Defined in
 
-[src/operators/includes.ts:35](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/includes.ts#L35)
+[src/operators/includes.ts:35](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/includes.ts#L35)
 
 ___
 
@@ -1804,7 +1804,7 @@ ___
 
 #### Defined in
 
-[src/operators/intersect.ts:26](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/intersect.ts#L26)
+[src/operators/intersect.ts:26](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/intersect.ts#L26)
 
 ▸ **intersect**<`T`\>(`source2`, `keySelector?`): `Operator`<`T`, `T`\>
 
@@ -1827,7 +1827,7 @@ ___
 
 #### Defined in
 
-[src/operators/intersect.ts:27](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/intersect.ts#L27)
+[src/operators/intersect.ts:27](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/intersect.ts#L27)
 
 ___
 
@@ -1853,7 +1853,7 @@ ___
 
 #### Defined in
 
-[src/operators/isempty.ts:12](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/isempty.ts#L12)
+[src/operators/isempty.ts:12](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/isempty.ts#L12)
 
 ▸ **isempty**<`T`\>(): `OperatorR`<`T`, `boolean`\>
 
@@ -1869,7 +1869,7 @@ ___
 
 #### Defined in
 
-[src/operators/isempty.ts:13](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/isempty.ts#L13)
+[src/operators/isempty.ts:13](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/isempty.ts#L13)
 
 ___
 
@@ -1902,7 +1902,7 @@ ___
 
 #### Defined in
 
-[src/operators/join.ts:35](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/join.ts#L35)
+[src/operators/join.ts:35](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/join.ts#L35)
 
 ▸ **join**<`T`, `T2`, `TKey`, `TResult`\>(`source2`, `key1Selector`, `key2Selector`, `resultSelector`): `Operator`<`T`, `TResult`\>
 
@@ -1930,7 +1930,7 @@ ___
 
 #### Defined in
 
-[src/operators/join.ts:37](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/join.ts#L37)
+[src/operators/join.ts:37](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/join.ts#L37)
 
 ___
 
@@ -1957,7 +1957,7 @@ ___
 
 #### Defined in
 
-[src/operators/last.ts:23](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/last.ts#L23)
+[src/operators/last.ts:23](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/last.ts#L23)
 
 ▸ **last**<`T`\>(`predicate?`): `OperatorR`<`T`, `T` \| `undefined`\>
 
@@ -1979,7 +1979,7 @@ ___
 
 #### Defined in
 
-[src/operators/last.ts:24](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/last.ts#L24)
+[src/operators/last.ts:24](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/last.ts#L24)
 
 ___
 
@@ -2007,7 +2007,7 @@ ___
 
 #### Defined in
 
-[src/operators/map.ts:14](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/map.ts#L14)
+[src/operators/map.ts:14](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/map.ts#L14)
 
 ▸ **map**<`T`, `TResult`\>(`projection`): `Operator`<`T`, `TResult`\>
 
@@ -2030,7 +2030,7 @@ ___
 
 #### Defined in
 
-[src/operators/map.ts:15](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/map.ts#L15)
+[src/operators/map.ts:15](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/map.ts#L15)
 
 ___
 
@@ -2056,7 +2056,7 @@ ___
 
 #### Defined in
 
-[src/operators/max.ts:10](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/max.ts#L10)
+[src/operators/max.ts:10](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/max.ts#L10)
 
 ▸ **max**<`T`, `TValue`\>(`source`, `valueSelector`): `TValue` \| `undefined`
 
@@ -2080,7 +2080,7 @@ ___
 
 #### Defined in
 
-[src/operators/max.ts:11](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/max.ts#L11)
+[src/operators/max.ts:11](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/max.ts#L11)
 
 ▸ **max**<`T`\>(): `OperatorR`<`T`, `T` \| `undefined`\>
 
@@ -2096,7 +2096,7 @@ ___
 
 #### Defined in
 
-[src/operators/max.ts:12](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/max.ts#L12)
+[src/operators/max.ts:12](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/max.ts#L12)
 
 ▸ **max**<`T`, `TValue`\>(`valueSelector`): `OperatorR`<`T`, `TValue` \| `undefined`\>
 
@@ -2119,7 +2119,7 @@ ___
 
 #### Defined in
 
-[src/operators/max.ts:13](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/max.ts#L13)
+[src/operators/max.ts:13](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/max.ts#L13)
 
 ___
 
@@ -2146,7 +2146,7 @@ ___
 
 #### Defined in
 
-[src/operators/maxby.ts:10](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/maxby.ts#L10)
+[src/operators/maxby.ts:10](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/maxby.ts#L10)
 
 ▸ **maxby**<`T`\>(`valueSelector`): `OperatorR`<`T`, `T` \| `undefined`\>
 
@@ -2168,7 +2168,7 @@ ___
 
 #### Defined in
 
-[src/operators/maxby.ts:11](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/maxby.ts#L11)
+[src/operators/maxby.ts:11](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/maxby.ts#L11)
 
 ___
 
@@ -2194,7 +2194,7 @@ ___
 
 #### Defined in
 
-[src/operators/min.ts:9](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/min.ts#L9)
+[src/operators/min.ts:9](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/min.ts#L9)
 
 ▸ **min**<`T`, `TValue`\>(`source`, `valueSelector`): `TValue` \| `undefined`
 
@@ -2218,7 +2218,7 @@ ___
 
 #### Defined in
 
-[src/operators/min.ts:10](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/min.ts#L10)
+[src/operators/min.ts:10](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/min.ts#L10)
 
 ▸ **min**<`T`\>(): `OperatorR`<`T`, `T` \| `undefined`\>
 
@@ -2234,7 +2234,7 @@ ___
 
 #### Defined in
 
-[src/operators/min.ts:11](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/min.ts#L11)
+[src/operators/min.ts:11](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/min.ts#L11)
 
 ▸ **min**<`T`, `TValue`\>(`valueSelector`): `OperatorR`<`T`, `TValue` \| `undefined`\>
 
@@ -2257,7 +2257,7 @@ ___
 
 #### Defined in
 
-[src/operators/min.ts:12](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/min.ts#L12)
+[src/operators/min.ts:12](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/min.ts#L12)
 
 ___
 
@@ -2284,7 +2284,7 @@ ___
 
 #### Defined in
 
-[src/operators/minby.ts:10](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/minby.ts#L10)
+[src/operators/minby.ts:10](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/minby.ts#L10)
 
 ▸ **minby**<`T`\>(`valueSelector`): `OperatorR`<`T`, `T` \| `undefined`\>
 
@@ -2306,7 +2306,7 @@ ___
 
 #### Defined in
 
-[src/operators/minby.ts:11](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/minby.ts#L11)
+[src/operators/minby.ts:11](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/minby.ts#L11)
 
 ___
 
@@ -2332,7 +2332,7 @@ ___
 
 #### Defined in
 
-[src/enumerable/of.ts:4](https://github.com/kamoshi/powerseq/blob/abc2814/src/enumerable/of.ts#L4)
+[src/enumerable/of.ts:4](https://github.com/kamoshi/powerseq/blob/21310fa/src/enumerable/of.ts#L4)
 
 ___
 
@@ -2359,7 +2359,7 @@ ___
 
 #### Defined in
 
-[src/operators/oftype.ts:15](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/oftype.ts#L15)
+[src/operators/oftype.ts:15](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/oftype.ts#L15)
 
 ▸ **oftype**<`TResult`\>(`type`): `Operator`<`any`, `TResult`\>
 
@@ -2381,7 +2381,7 @@ ___
 
 #### Defined in
 
-[src/operators/oftype.ts:16](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/oftype.ts#L16)
+[src/operators/oftype.ts:16](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/oftype.ts#L16)
 
 ___
 
@@ -2408,7 +2408,7 @@ ___
 
 #### Defined in
 
-[src/operators/orderby.ts:13](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/orderby.ts#L13)
+[src/operators/orderby.ts:13](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/orderby.ts#L13)
 
 ▸ **orderby**<`T`\>(`keySelector`): `OperatorR`<`T`, `OrderedEnumerable`<`T`\>\>
 
@@ -2430,7 +2430,7 @@ ___
 
 #### Defined in
 
-[src/operators/orderby.ts:14](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/orderby.ts#L14)
+[src/operators/orderby.ts:14](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/orderby.ts#L14)
 
 ___
 
@@ -2457,7 +2457,7 @@ ___
 
 #### Defined in
 
-[src/operators/orderbydescending.ts:13](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/orderbydescending.ts#L13)
+[src/operators/orderbydescending.ts:13](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/orderbydescending.ts#L13)
 
 ▸ **orderbydescending**<`T`\>(`keySelector`): `OperatorR`<`T`, `OrderedEnumerable`<`T`\>\>
 
@@ -2479,7 +2479,7 @@ ___
 
 #### Defined in
 
-[src/operators/orderbydescending.ts:14](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/orderbydescending.ts#L14)
+[src/operators/orderbydescending.ts:14](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/orderbydescending.ts#L14)
 
 ___
 
@@ -2505,7 +2505,7 @@ ___
 
 #### Defined in
 
-[src/pipe.ts:3](https://github.com/kamoshi/powerseq/blob/abc2814/src/pipe.ts#L3)
+[src/pipe.ts:3](https://github.com/kamoshi/powerseq/blob/21310fa/src/pipe.ts#L3)
 
 ▸ **pipe**<`T`, `A`\>(`source`, `op1`): `A`
 
@@ -2529,7 +2529,7 @@ ___
 
 #### Defined in
 
-[src/pipe.ts:4](https://github.com/kamoshi/powerseq/blob/abc2814/src/pipe.ts#L4)
+[src/pipe.ts:4](https://github.com/kamoshi/powerseq/blob/21310fa/src/pipe.ts#L4)
 
 ▸ **pipe**<`T`, `A`, `B`\>(`source`, `op1`, `op2`): `B`
 
@@ -2555,7 +2555,7 @@ ___
 
 #### Defined in
 
-[src/pipe.ts:5](https://github.com/kamoshi/powerseq/blob/abc2814/src/pipe.ts#L5)
+[src/pipe.ts:5](https://github.com/kamoshi/powerseq/blob/21310fa/src/pipe.ts#L5)
 
 ▸ **pipe**<`T`, `A`, `B`, `C`\>(`source`, `op1`, `op2`, `op3`): `C`
 
@@ -2583,7 +2583,7 @@ ___
 
 #### Defined in
 
-[src/pipe.ts:6](https://github.com/kamoshi/powerseq/blob/abc2814/src/pipe.ts#L6)
+[src/pipe.ts:6](https://github.com/kamoshi/powerseq/blob/21310fa/src/pipe.ts#L6)
 
 ▸ **pipe**<`T`, `A`, `B`, `C`, `D`\>(`source`, `op1`, `op2`, `op3`, `op4`): `D`
 
@@ -2613,7 +2613,7 @@ ___
 
 #### Defined in
 
-[src/pipe.ts:7](https://github.com/kamoshi/powerseq/blob/abc2814/src/pipe.ts#L7)
+[src/pipe.ts:7](https://github.com/kamoshi/powerseq/blob/21310fa/src/pipe.ts#L7)
 
 ▸ **pipe**<`T`, `A`, `B`, `C`, `D`, `E`\>(`source`, `op1`, `op2`, `op3`, `op4`, `op5`): `E`
 
@@ -2645,7 +2645,7 @@ ___
 
 #### Defined in
 
-[src/pipe.ts:8](https://github.com/kamoshi/powerseq/blob/abc2814/src/pipe.ts#L8)
+[src/pipe.ts:8](https://github.com/kamoshi/powerseq/blob/21310fa/src/pipe.ts#L8)
 
 ▸ **pipe**<`T`, `A`, `B`, `C`, `D`, `E`, `F`\>(`source`, `op1`, `op2`, `op3`, `op4`, `op5`, `op6`): `F`
 
@@ -2679,7 +2679,7 @@ ___
 
 #### Defined in
 
-[src/pipe.ts:9](https://github.com/kamoshi/powerseq/blob/abc2814/src/pipe.ts#L9)
+[src/pipe.ts:9](https://github.com/kamoshi/powerseq/blob/21310fa/src/pipe.ts#L9)
 
 ▸ **pipe**<`T`, `A`, `B`, `C`, `D`, `E`, `F`, `G`\>(`source`, `op1`, `op2`, `op3`, `op4`, `op5`, `op6`, `op7`): `G`
 
@@ -2715,7 +2715,7 @@ ___
 
 #### Defined in
 
-[src/pipe.ts:10](https://github.com/kamoshi/powerseq/blob/abc2814/src/pipe.ts#L10)
+[src/pipe.ts:10](https://github.com/kamoshi/powerseq/blob/21310fa/src/pipe.ts#L10)
 
 ▸ **pipe**<`T`, `A`, `B`, `C`, `D`, `E`, `F`, `G`, `H`\>(`source`, `op1`, `op2`, `op3`, `op4`, `op5`, `op6`, `op7`, `op8`): `H`
 
@@ -2753,7 +2753,7 @@ ___
 
 #### Defined in
 
-[src/pipe.ts:11](https://github.com/kamoshi/powerseq/blob/abc2814/src/pipe.ts#L11)
+[src/pipe.ts:11](https://github.com/kamoshi/powerseq/blob/21310fa/src/pipe.ts#L11)
 
 ▸ **pipe**<`T`, `A`, `B`, `C`, `D`, `E`, `F`, `G`, `H`, `I`\>(`source`, `op1`, `op2`, `op3`, `op4`, `op5`, `op6`, `op7`, `op8`, `op9`): `I`
 
@@ -2793,7 +2793,7 @@ ___
 
 #### Defined in
 
-[src/pipe.ts:12](https://github.com/kamoshi/powerseq/blob/abc2814/src/pipe.ts#L12)
+[src/pipe.ts:12](https://github.com/kamoshi/powerseq/blob/21310fa/src/pipe.ts#L12)
 
 ___
 
@@ -2814,7 +2814,7 @@ ___
 
 #### Defined in
 
-[src/enumerable/range.ts:4](https://github.com/kamoshi/powerseq/blob/abc2814/src/enumerable/range.ts#L4)
+[src/enumerable/range.ts:4](https://github.com/kamoshi/powerseq/blob/21310fa/src/enumerable/range.ts#L4)
 
 ___
 
@@ -2841,7 +2841,7 @@ ___
 
 #### Defined in
 
-[src/operators/reduce.ts:26](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/reduce.ts#L26)
+[src/operators/reduce.ts:26](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/reduce.ts#L26)
 
 ▸ **reduce**<`T`, `TAccumulate`\>(`source`, `func`, `seed`): `TAccumulate`
 
@@ -2866,7 +2866,7 @@ ___
 
 #### Defined in
 
-[src/operators/reduce.ts:27](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/reduce.ts#L27)
+[src/operators/reduce.ts:27](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/reduce.ts#L27)
 
 ▸ **reduce**<`T`\>(`func`): `OperatorR`<`T`, `T`\>
 
@@ -2888,7 +2888,7 @@ ___
 
 #### Defined in
 
-[src/operators/reduce.ts:28](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/reduce.ts#L28)
+[src/operators/reduce.ts:28](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/reduce.ts#L28)
 
 ▸ **reduce**<`T`, `TAccumulate`\>(`func`, `seed`): `OperatorR`<`T`, `TAccumulate`\>
 
@@ -2912,7 +2912,7 @@ ___
 
 #### Defined in
 
-[src/operators/reduce.ts:29](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/reduce.ts#L29)
+[src/operators/reduce.ts:29](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/reduce.ts#L29)
 
 ___
 
@@ -2939,7 +2939,7 @@ ___
 
 #### Defined in
 
-[src/operators/repeat.ts:19](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/repeat.ts#L19)
+[src/operators/repeat.ts:19](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/repeat.ts#L19)
 
 ▸ **repeat**<`T`\>(`count?`): `Operator`<`T`, `T`\>
 
@@ -2961,7 +2961,7 @@ ___
 
 #### Defined in
 
-[src/operators/repeat.ts:20](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/repeat.ts#L20)
+[src/operators/repeat.ts:20](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/repeat.ts#L20)
 
 ___
 
@@ -2988,7 +2988,7 @@ ___
 
 #### Defined in
 
-[src/enumerable/repeatvalue.ts:4](https://github.com/kamoshi/powerseq/blob/abc2814/src/enumerable/repeatvalue.ts#L4)
+[src/enumerable/repeatvalue.ts:4](https://github.com/kamoshi/powerseq/blob/21310fa/src/enumerable/repeatvalue.ts#L4)
 
 ___
 
@@ -3014,7 +3014,7 @@ ___
 
 #### Defined in
 
-[src/operators/reverse.ts:11](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/reverse.ts#L11)
+[src/operators/reverse.ts:11](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/reverse.ts#L11)
 
 ▸ **reverse**<`T`\>(): `Operator`<`T`, `T`\>
 
@@ -3030,7 +3030,7 @@ ___
 
 #### Defined in
 
-[src/operators/reverse.ts:12](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/reverse.ts#L12)
+[src/operators/reverse.ts:12](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/reverse.ts#L12)
 
 ___
 
@@ -3057,7 +3057,7 @@ ___
 
 #### Defined in
 
-[src/operators/scan.ts:27](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/scan.ts#L27)
+[src/operators/scan.ts:27](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/scan.ts#L27)
 
 ▸ **scan**<`T`, `TAccumulate`\>(`source`, `func`, `seed`): `Iterable`<`TAccumulate`\>
 
@@ -3082,7 +3082,7 @@ ___
 
 #### Defined in
 
-[src/operators/scan.ts:28](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/scan.ts#L28)
+[src/operators/scan.ts:28](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/scan.ts#L28)
 
 ▸ **scan**<`T`\>(`func`): `Operator`<`T`, `T`\>
 
@@ -3104,7 +3104,7 @@ ___
 
 #### Defined in
 
-[src/operators/scan.ts:29](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/scan.ts#L29)
+[src/operators/scan.ts:29](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/scan.ts#L29)
 
 ▸ **scan**<`T`, `TAccumulate`\>(`func`, `seed`): `Operator`<`T`, `TAccumulate`\>
 
@@ -3128,7 +3128,7 @@ ___
 
 #### Defined in
 
-[src/operators/scan.ts:30](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/scan.ts#L30)
+[src/operators/scan.ts:30](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/scan.ts#L30)
 
 ___
 
@@ -3155,7 +3155,7 @@ ___
 
 #### Defined in
 
-[src/operators/sequenceequal.ts:5](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sequenceequal.ts#L5)
+[src/operators/sequenceequal.ts:5](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sequenceequal.ts#L5)
 
 ▸ **sequenceequal**<`T`\>(`source1`, `source2`, `source3`): `boolean`
 
@@ -3179,7 +3179,7 @@ ___
 
 #### Defined in
 
-[src/operators/sequenceequal.ts:6](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sequenceequal.ts#L6)
+[src/operators/sequenceequal.ts:6](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sequenceequal.ts#L6)
 
 ▸ **sequenceequal**<`T`\>(`source1`, `source2`, `source3`, `source4`): `boolean`
 
@@ -3204,7 +3204,7 @@ ___
 
 #### Defined in
 
-[src/operators/sequenceequal.ts:7](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sequenceequal.ts#L7)
+[src/operators/sequenceequal.ts:7](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sequenceequal.ts#L7)
 
 ▸ **sequenceequal**<`T`\>(`source1`, `source2`, `source3`, `source4`, `source5`): `boolean`
 
@@ -3230,7 +3230,7 @@ ___
 
 #### Defined in
 
-[src/operators/sequenceequal.ts:8](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sequenceequal.ts#L8)
+[src/operators/sequenceequal.ts:8](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sequenceequal.ts#L8)
 
 ▸ **sequenceequal**<`T`\>(`...args`): `boolean`
 
@@ -3252,7 +3252,7 @@ ___
 
 #### Defined in
 
-[src/operators/sequenceequal.ts:9](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sequenceequal.ts#L9)
+[src/operators/sequenceequal.ts:9](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sequenceequal.ts#L9)
 
 ___
 
@@ -3278,7 +3278,7 @@ ___
 
 #### Defined in
 
-[src/operators/sequenceequal.ts:34](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sequenceequal.ts#L34)
+[src/operators/sequenceequal.ts:34](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sequenceequal.ts#L34)
 
 ▸ **sequenceequalp**<`T`\>(`source2`, `source3`): `OperatorR`<`T`, `boolean`\>
 
@@ -3301,7 +3301,7 @@ ___
 
 #### Defined in
 
-[src/operators/sequenceequal.ts:35](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sequenceequal.ts#L35)
+[src/operators/sequenceequal.ts:35](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sequenceequal.ts#L35)
 
 ▸ **sequenceequalp**<`T`\>(`source2`, `source3`, `source4`): `OperatorR`<`T`, `boolean`\>
 
@@ -3325,7 +3325,7 @@ ___
 
 #### Defined in
 
-[src/operators/sequenceequal.ts:36](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sequenceequal.ts#L36)
+[src/operators/sequenceequal.ts:36](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sequenceequal.ts#L36)
 
 ▸ **sequenceequalp**<`T`\>(`source2`, `source3`, `source4`, `source5`): `OperatorR`<`T`, `boolean`\>
 
@@ -3350,7 +3350,7 @@ ___
 
 #### Defined in
 
-[src/operators/sequenceequal.ts:37](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sequenceequal.ts#L37)
+[src/operators/sequenceequal.ts:37](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sequenceequal.ts#L37)
 
 ▸ **sequenceequalp**<`T`\>(`...args`): `OperatorR`<`T`, `boolean`\>
 
@@ -3372,7 +3372,7 @@ ___
 
 #### Defined in
 
-[src/operators/sequenceequal.ts:38](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sequenceequal.ts#L38)
+[src/operators/sequenceequal.ts:38](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sequenceequal.ts#L38)
 
 ___
 
@@ -3399,7 +3399,7 @@ ___
 
 #### Defined in
 
-[src/operators/single.ts:37](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/single.ts#L37)
+[src/operators/single.ts:37](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/single.ts#L37)
 
 ▸ **single**<`T`\>(`predicate?`): `OperatorR`<`T`, `T` \| `undefined`\>
 
@@ -3421,7 +3421,7 @@ ___
 
 #### Defined in
 
-[src/operators/single.ts:38](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/single.ts#L38)
+[src/operators/single.ts:38](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/single.ts#L38)
 
 ___
 
@@ -3448,7 +3448,7 @@ ___
 
 #### Defined in
 
-[src/operators/skip.ts:26](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/skip.ts#L26)
+[src/operators/skip.ts:26](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/skip.ts#L26)
 
 ▸ **skip**<`T`\>(`count`): `Operator`<`T`, `T`\>
 
@@ -3470,7 +3470,7 @@ ___
 
 #### Defined in
 
-[src/operators/skip.ts:27](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/skip.ts#L27)
+[src/operators/skip.ts:27](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/skip.ts#L27)
 
 ___
 
@@ -3497,7 +3497,7 @@ ___
 
 #### Defined in
 
-[src/operators/skiplast.ts:45](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/skiplast.ts#L45)
+[src/operators/skiplast.ts:45](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/skiplast.ts#L45)
 
 ▸ **skiplast**<`T`\>(`count`): `Operator`<`T`, `T`\>
 
@@ -3519,7 +3519,7 @@ ___
 
 #### Defined in
 
-[src/operators/skiplast.ts:46](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/skiplast.ts#L46)
+[src/operators/skiplast.ts:46](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/skiplast.ts#L46)
 
 ___
 
@@ -3546,7 +3546,7 @@ ___
 
 #### Defined in
 
-[src/operators/skipwhile.ts:27](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/skipwhile.ts#L27)
+[src/operators/skipwhile.ts:27](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/skipwhile.ts#L27)
 
 ▸ **skipwhile**<`T`\>(`predicate`): `Operator`<`T`, `T`\>
 
@@ -3568,7 +3568,7 @@ ___
 
 #### Defined in
 
-[src/operators/skipwhile.ts:28](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/skipwhile.ts#L28)
+[src/operators/skipwhile.ts:28](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/skipwhile.ts#L28)
 
 ___
 
@@ -3595,7 +3595,7 @@ ___
 
 #### Defined in
 
-[src/operators/some.ts:23](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/some.ts#L23)
+[src/operators/some.ts:23](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/some.ts#L23)
 
 ▸ **some**<`T`\>(`predicate?`): `OperatorR`<`T`, `boolean`\>
 
@@ -3617,7 +3617,7 @@ ___
 
 #### Defined in
 
-[src/operators/some.ts:24](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/some.ts#L24)
+[src/operators/some.ts:24](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/some.ts#L24)
 
 ___
 
@@ -3644,7 +3644,7 @@ ___
 
 #### Defined in
 
-[src/operators/sum.ts:19](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sum.ts#L19)
+[src/operators/sum.ts:19](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sum.ts#L19)
 
 ▸ **sum**<`T`\>(`valueSelector?`): `OperatorR`<`T`, `number`\>
 
@@ -3666,7 +3666,7 @@ ___
 
 #### Defined in
 
-[src/operators/sum.ts:20](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/sum.ts#L20)
+[src/operators/sum.ts:20](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/sum.ts#L20)
 
 ___
 
@@ -3693,7 +3693,7 @@ ___
 
 #### Defined in
 
-[src/operators/take.ts:17](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/take.ts#L17)
+[src/operators/take.ts:17](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/take.ts#L17)
 
 ▸ **take**<`T`\>(`count`): `Operator`<`T`, `T`\>
 
@@ -3715,7 +3715,7 @@ ___
 
 #### Defined in
 
-[src/operators/take.ts:18](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/take.ts#L18)
+[src/operators/take.ts:18](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/take.ts#L18)
 
 ___
 
@@ -3742,7 +3742,7 @@ ___
 
 #### Defined in
 
-[src/operators/takelast.ts:59](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/takelast.ts#L59)
+[src/operators/takelast.ts:59](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/takelast.ts#L59)
 
 ▸ **takelast**<`T`\>(`count`): `Operator`<`T`, `T`\>
 
@@ -3764,7 +3764,7 @@ ___
 
 #### Defined in
 
-[src/operators/takelast.ts:60](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/takelast.ts#L60)
+[src/operators/takelast.ts:60](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/takelast.ts#L60)
 
 ___
 
@@ -3791,7 +3791,7 @@ ___
 
 #### Defined in
 
-[src/operators/takewhile.ts:17](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/takewhile.ts#L17)
+[src/operators/takewhile.ts:17](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/takewhile.ts#L17)
 
 ▸ **takewhile**<`T`\>(`predicate`): `Operator`<`T`, `T`\>
 
@@ -3813,7 +3813,7 @@ ___
 
 #### Defined in
 
-[src/operators/takewhile.ts:18](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/takewhile.ts#L18)
+[src/operators/takewhile.ts:18](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/takewhile.ts#L18)
 
 ___
 
@@ -3840,7 +3840,7 @@ ___
 
 #### Defined in
 
-[src/operators/thenby.ts:12](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/thenby.ts#L12)
+[src/operators/thenby.ts:12](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/thenby.ts#L12)
 
 ▸ **thenby**<`T`\>(`keySelector`): `OperatorRA`<`OrderedEnumerable`<`T`\>, `OrderedEnumerable`<`T`\>\>
 
@@ -3862,7 +3862,7 @@ ___
 
 #### Defined in
 
-[src/operators/thenby.ts:13](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/thenby.ts#L13)
+[src/operators/thenby.ts:13](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/thenby.ts#L13)
 
 ___
 
@@ -3889,7 +3889,7 @@ ___
 
 #### Defined in
 
-[src/operators/thenbydescending.ts:13](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/thenbydescending.ts#L13)
+[src/operators/thenbydescending.ts:13](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/thenbydescending.ts#L13)
 
 ▸ **thenbydescending**<`T`\>(`keySelector`): `OperatorRA`<`OrderedEnumerable`<`T`\>, `OrderedEnumerable`<`T`\>\>
 
@@ -3911,7 +3911,7 @@ ___
 
 #### Defined in
 
-[src/operators/thenbydescending.ts:14](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/thenbydescending.ts#L14)
+[src/operators/thenbydescending.ts:14](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/thenbydescending.ts#L14)
 
 ___
 
@@ -3937,7 +3937,7 @@ ___
 
 #### Defined in
 
-[src/enumerable/throww.ts:4](https://github.com/kamoshi/powerseq/blob/abc2814/src/enumerable/throww.ts#L4)
+[src/enumerable/throww.ts:4](https://github.com/kamoshi/powerseq/blob/21310fa/src/enumerable/throww.ts#L4)
 
 ___
 
@@ -3963,7 +3963,7 @@ ___
 
 #### Defined in
 
-[src/operators/toarray.ts:16](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/toarray.ts#L16)
+[src/operators/toarray.ts:16](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/toarray.ts#L16)
 
 ▸ **toarray**<`T`\>(): `OperatorR`<`T`, `T`[]\>
 
@@ -3979,7 +3979,7 @@ ___
 
 #### Defined in
 
-[src/operators/toarray.ts:17](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/toarray.ts#L17)
+[src/operators/toarray.ts:17](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/toarray.ts#L17)
 
 ___
 
@@ -4007,7 +4007,7 @@ ___
 
 #### Defined in
 
-[src/operators/tomap.ts:22](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/tomap.ts#L22)
+[src/operators/tomap.ts:22](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/tomap.ts#L22)
 
 ▸ **tomap**<`T`, `TKey`, `TElement`\>(`source`, `keySelector`, `elementSelector`): `Map`<`TKey`, `TElement`\>
 
@@ -4033,7 +4033,7 @@ ___
 
 #### Defined in
 
-[src/operators/tomap.ts:23](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/tomap.ts#L23)
+[src/operators/tomap.ts:23](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/tomap.ts#L23)
 
 ▸ **tomap**<`T`, `TKey`\>(`keySelector`): `OperatorR`<`T`, `Map`<`TKey`, `T`\>\>
 
@@ -4056,7 +4056,7 @@ ___
 
 #### Defined in
 
-[src/operators/tomap.ts:24](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/tomap.ts#L24)
+[src/operators/tomap.ts:24](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/tomap.ts#L24)
 
 ▸ **tomap**<`T`, `TKey`, `TElement`\>(`keySelector`, `elementSelector`): `OperatorR`<`T`, `Map`<`TKey`, `TElement`\>\>
 
@@ -4081,7 +4081,7 @@ ___
 
 #### Defined in
 
-[src/operators/tomap.ts:25](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/tomap.ts#L25)
+[src/operators/tomap.ts:25](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/tomap.ts#L25)
 
 ___
 
@@ -4108,7 +4108,7 @@ ___
 
 #### Defined in
 
-[src/operators/toobject.ts:21](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/toobject.ts#L21)
+[src/operators/toobject.ts:21](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/toobject.ts#L21)
 
 ▸ **toobject**<`T`, `TElement`\>(`source`, `keySelector`, `elementSelector`): `Dictionary`<`TElement`\>
 
@@ -4133,7 +4133,7 @@ ___
 
 #### Defined in
 
-[src/operators/toobject.ts:22](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/toobject.ts#L22)
+[src/operators/toobject.ts:22](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/toobject.ts#L22)
 
 ▸ **toobject**<`T`\>(`keySelector`): `OperatorR`<`T`, `Dictionary`<`T`\>\>
 
@@ -4155,7 +4155,7 @@ ___
 
 #### Defined in
 
-[src/operators/toobject.ts:23](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/toobject.ts#L23)
+[src/operators/toobject.ts:23](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/toobject.ts#L23)
 
 ▸ **toobject**<`T`, `TElement`\>(`keySelector`, `elementSelector`): `OperatorR`<`T`, `Dictionary`<`TElement`\>\>
 
@@ -4179,7 +4179,7 @@ ___
 
 #### Defined in
 
-[src/operators/toobject.ts:24](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/toobject.ts#L24)
+[src/operators/toobject.ts:24](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/toobject.ts#L24)
 
 ___
 
@@ -4207,7 +4207,7 @@ ___
 
 #### Defined in
 
-[src/operators/union.ts:29](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/union.ts#L29)
+[src/operators/union.ts:29](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/union.ts#L29)
 
 ▸ **union**<`T`\>(`source2`, `keySelector?`): `Operator`<`T`, `T`\>
 
@@ -4230,7 +4230,7 @@ ___
 
 #### Defined in
 
-[src/operators/union.ts:30](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/union.ts#L30)
+[src/operators/union.ts:30](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/union.ts#L30)
 
 ___
 
@@ -4260,7 +4260,7 @@ ___
 
 #### Defined in
 
-[src/operators/zip.ts:5](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/zip.ts#L5)
+[src/operators/zip.ts:5](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/zip.ts#L5)
 
 ▸ **zip**<`T1`, `T2`, `T3`, `TResult`\>(`source1`, `source2`, `source3`, `func`): `Iterable`<`TResult`\>
 
@@ -4288,7 +4288,7 @@ ___
 
 #### Defined in
 
-[src/operators/zip.ts:6](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/zip.ts#L6)
+[src/operators/zip.ts:6](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/zip.ts#L6)
 
 ▸ **zip**<`T1`, `T2`, `T3`, `T4`, `TResult`\>(`source1`, `source2`, `source3`, `source4`, `func`): `Iterable`<`TResult`\>
 
@@ -4318,7 +4318,7 @@ ___
 
 #### Defined in
 
-[src/operators/zip.ts:7](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/zip.ts#L7)
+[src/operators/zip.ts:7](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/zip.ts#L7)
 
 ▸ **zip**<`T1`, `T2`, `T3`, `T4`, `T5`, `TResult`\>(`source1`, `source2`, `source3`, `source4`, `source5`, `func`): `Iterable`<`TResult`\>
 
@@ -4350,7 +4350,7 @@ ___
 
 #### Defined in
 
-[src/operators/zip.ts:8](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/zip.ts#L8)
+[src/operators/zip.ts:8](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/zip.ts#L8)
 
 ▸ **zip**(`...args`): `any`
 
@@ -4366,7 +4366,7 @@ ___
 
 #### Defined in
 
-[src/operators/zip.ts:9](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/zip.ts#L9)
+[src/operators/zip.ts:9](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/zip.ts#L9)
 
 ___
 
@@ -4395,7 +4395,7 @@ ___
 
 #### Defined in
 
-[src/operators/zip.ts:24](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/zip.ts#L24)
+[src/operators/zip.ts:24](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/zip.ts#L24)
 
 ▸ **zipp**<`T1`, `T2`, `T3`, `TResult`\>(`source2`, `source3`, `func`): `Operator`<`T1`, `TResult`\>
 
@@ -4422,7 +4422,7 @@ ___
 
 #### Defined in
 
-[src/operators/zip.ts:25](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/zip.ts#L25)
+[src/operators/zip.ts:25](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/zip.ts#L25)
 
 ▸ **zipp**<`T1`, `T2`, `T3`, `T4`, `TResult`\>(`source2`, `source3`, `source4`, `func`): `Operator`<`T1`, `TResult`\>
 
@@ -4451,7 +4451,7 @@ ___
 
 #### Defined in
 
-[src/operators/zip.ts:26](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/zip.ts#L26)
+[src/operators/zip.ts:26](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/zip.ts#L26)
 
 ▸ **zipp**<`T1`, `T2`, `T3`, `T4`, `T5`, `TResult`\>(`source2`, `source3`, `source4`, `source5`, `func`): `Operator`<`T1`, `TResult`\>
 
@@ -4482,7 +4482,7 @@ ___
 
 #### Defined in
 
-[src/operators/zip.ts:27](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/zip.ts#L27)
+[src/operators/zip.ts:27](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/zip.ts#L27)
 
 ▸ **zipp**(`...args`): `Operator`<`any`, `any`\>
 
@@ -4498,4 +4498,4 @@ ___
 
 #### Defined in
 
-[src/operators/zip.ts:28](https://github.com/kamoshi/powerseq/blob/abc2814/src/operators/zip.ts#L28)
+[src/operators/zip.ts:28](https://github.com/kamoshi/powerseq/blob/21310fa/src/operators/zip.ts#L28)
